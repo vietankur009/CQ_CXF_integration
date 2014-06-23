@@ -1,0 +1,6 @@
+.idea/
+
+mvn.log
+
+*/target
+target/*
