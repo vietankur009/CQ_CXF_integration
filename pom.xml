@@ -429,5 +429,6 @@
   <modules>
     <module>bundle</module>
     <module>content</module>
+    <module>cxf_dependencies</module>
   </modules>
 </project>

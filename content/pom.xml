@@ -29,6 +29,11 @@
             <version>${project.parent.version}</version>
         </dependency>
         <dependency>
+            <groupId>${project.groupId}</groupId>
+            <artifactId>cxf_dependencies</artifactId>
+            <version>${project.parent.version}</version>
+        </dependency>
+        <dependency>
             <groupId>org.apache.felix</groupId>
             <artifactId>org.apache.felix.scr.annotations</artifactId>
             <version>1.6.0</version>
@@ -39,13 +44,6 @@
             <artifactId>org.osgi.compendium</artifactId>
             <version>4.2.0</version>
             <scope>provided</scope>
-        </dependency>
-        <dependency>
-            <groupId>cxf</groupId>
-            <artifactId>cxf</artifactId>
-            <version>1.0-SNAPSHOT</version>
-            <type>pom</type>
-            <scope>import</scope>
         </dependency>
 
     </dependencies>
